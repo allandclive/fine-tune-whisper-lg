@@ -1,6 +1,6 @@
 # fine-tune whisper lg
 
-jupyter notebooks to fine tune whisper models on vietnamese using kaggle (should also work on colab but not throughly tested)
+jupyter notebooks to fine tune whisper models on luganda using kaggle (should also work on colab but not throughly tested)
 
 *N.B.1* import any trainer or pipeline class from `transformers` crash kaggle TPU session so better use GPU
 
@@ -28,16 +28,3 @@ docker image to fine-tune on AWS: [Dockerfile](docker/Dockerfile)
 convert to `openai-whisper`, `whisper.cpp`, `faster-whisper`, ONNX, TensorRT: *not yet*
 
 ## datasets
-
-my collection of vietnamese speech datasets: https://huggingface.co/collections/doof-ferb/vietnamese-speech-dataset-65c6af8c15c9950537862fa6
-
-other datasets but cannot find download links:
-- Broadcasting Speech Corpus VOV: https://www.isca-archive.org/iscslp_2006/luong06_iscslp.html
-- VNSpeechCorpus: https://aclanthology.org/L04-1364/
-- VAIS-1000: https://ieee-dataport.org/documents/vais-1000-vietnamese-speech-synthesis-corpus
-- https://arxiv.org/abs/1904.05569
-- ViASR: https://aclanthology.org/2023.paclic-1.38/
-- NIST OpenKWS13 Evaluation Workshop
-- Viettel call center data: https://vlsp.org.vn/sites/default/files/2019-10/VLSP2019-ASR-MaiVanTuan.pdf
-- https://catalog.elra.info/en-us/repository/browse/ELRA-S0322/
-- https://catalog.elra.info/en-us/repository/browse/ELRA-S0432/
