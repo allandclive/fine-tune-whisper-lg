@@ -1,4 +1,4 @@
-# fine-tune whisper vi
+# fine-tune whisper lg
 
 jupyter notebooks to fine tune whisper models on vietnamese using kaggle (should also work on colab but not throughly tested)
 
